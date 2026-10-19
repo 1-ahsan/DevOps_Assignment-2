@@ -1,0 +1,13 @@
+name: Module 7 Custom Action
+
+on: [push, workflow_dispatch]
+
+jobs:
+  run-custom-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call my custom action
+        # Change YOUR_USERNAME below to your actual GitHub username!
+        uses: 1-ahsan/my-custom-action@v1.0.0
+        with:
+          who-to-greet: 'Ahsan'
