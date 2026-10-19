@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: Call my custom action
         # Change YOUR_USERNAME below to your actual GitHub username!
-        uses: 1-ahsan/my-custom-action@v1.0.0
+        uses: 1-ahsan/my-custom-action@v1.0.1
         with:
           who-to-greet: 'Ahsan'
